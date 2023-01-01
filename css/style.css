@@ -828,7 +828,8 @@ section.dark {
 }
 
 .de_light .transition {
-    background: #f5f5f5;
+    /* background: #f5f5f5; */
+    background: var(--primary-color);
 }
 
 .t-right {
