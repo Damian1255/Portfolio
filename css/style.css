@@ -7772,6 +7772,7 @@ a:hover {
 
 #gallery{
     min-width: 100%;
+    min-height: 150vh;
 }
 
 #gallery-carousel .item img {
