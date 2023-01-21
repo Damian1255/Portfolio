@@ -28,7 +28,7 @@ $(document).ready(function() {
         0 == b && ($("#send_message").attr({
             disabled: "true",
             value: "Sending..."
-        }), $.post("email.php", $("#contact_form").serialize(), function(a) {
+        }), $.post("../email.php", $("#contact_form").serialize(), function(a) {
             "sent" == a ? ($("#submit").remove(), $("#mail_success").fadeIn(500)) : ($("#mail_fail").fadeIn(500), $("#send_message").removeAttr("disabled").attr("value", "Send The Message"))
         }))
     })
