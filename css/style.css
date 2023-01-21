@@ -6472,13 +6472,11 @@ blockquote.testimonial-big>img {
 .d_timeline-text .d_title span {
     display: inline-block;
     font-weight: 500;
-    margin-left: 30px;
     color: #999;
     font-size: 16px
 }
 
 .d_timeline-text .d_title span:before {
-    content: "-";
     font-style: normal;
     position: absolute;
     margin-left: -20px
