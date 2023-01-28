@@ -56,11 +56,11 @@
                                 <ul id="mainmenu" class="scrollnav">
                                     <li><a href="#section-about">About Me</a></li>
                                     <li></li>
-                                    <li><a href="#section-resume">My Resume</a></li>
+                                    <li><a href="#section-resume">Resume</a></li>
                                     <li></li>
-                                    <li><a href="#section-portfolio">My Projects</a></li>
+                                    <li><a href="#section-portfolio">Projects</a></li>
                                     <li></li>
-                                    <li><a href="#section-blog">Side Projects</a></li>
+                                    <li><a href="#section-blog">Acheivements</a></li>
                                     <li></li>
                                     <li><a href="#section-contact">Contact</a></li>
                                     <li></li>
@@ -92,7 +92,10 @@
                 <div id="particles-js"></div>
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <!-- <div class="spacer-single"></div>
+                            <img src="images/people/me.jpeg" alt="" class="img-fluid wow fadeInLeft" data-wow-delay=".3s" /> -->
+                        </div>
                         <div class="col-md-6">
                             <h1 class="wow fadeInRight" data-wow-delay=".4s">Hello, <br>I'm <span
                                     class="underline">Damian,</span> and</h1>
@@ -117,7 +120,7 @@
             <!-- section close -->
 
             <!-- section begin -->
-            <section id="section-resume" data-bgimage="url(images/background/bg.svg) fixed">
+            <section id="section-resume">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-12 wow fadeInRight">
@@ -142,7 +145,7 @@
                                 <li class="d_timeline-item">
                                     <h3 class="d_timeline-title">Apr 2022 - Present</h3>
                                     <p class="d_timeline-text">
-                                        <span class="d_title">Applied AI and Analytics<br>
+                                        <span class="d_title">Diploma in Applied AI and Analytics<br>
                                             <span>Nanyang Polytechnic</span>
                                         </span>
                                     </p>
@@ -289,7 +292,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="spacer-50"></div>
+                        <div class="spacer-100"></div>
                         <div class="col-md-6">
                             <h3 class="s_border">Other Skills</h3>
                             <div class="skill-bar">
@@ -320,7 +323,7 @@
             <!-- section close -->
 
             <!-- section begin -->
-            <section id="section-about" data-bgimage="url(images/background/3.jpg) center fixed">
+            <section id="section-about">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 wow fadeInRight">
@@ -333,8 +336,8 @@
                         <div class="col-lg-6 mb-sm-30 text-center">
                             <div class="de-images">
                                 <div class="d-hover-zoom wow fadeInRight">
-                                    <a class="image-popup" href="images/misc/3.jpg">
-                                        <img class="img-fluid" src="images/misc/3.jpg" alt="" />
+                                    <a class="image-popup" href="images/people/me.jpeg">
+                                        <img class="img-fluid" src="images/people/me.jpeg" alt="" />
                                     </a>
                                 </div>
                                 <div class="d-hover-zoom di-small-2 wow fadeInLeft">
@@ -471,7 +474,7 @@
             <!-- section close -->
 
             <!-- section begin -->
-            <section id="section-portfolio" data-bgimage="url(images/background/3.jpg) center fixed">
+            <section id="section-portfolio">
                 <div class="container">
                     <div class="row" style="justify-content: center;">
                         <div class="col-lg-12 wow fadeInRight">
@@ -565,7 +568,7 @@
             <!-- section close -->
 
             <!-- section begin -->
-            <section id="section-blog" data-bgimage="url(images/background/3.jpg) center fixed">
+            <section id="section-blog">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 wow fadeInRight">
@@ -707,7 +710,7 @@
             <!-- section close -->
 
             <!-- section begin -->
-            <section id="section-contact" data-bgimage="url(images/background/3.jpg) center fixed">
+            <section id="section-contact">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 wow fadeInRight">
@@ -716,11 +719,10 @@
                             <div class="title-underline"></div>
                         </div>
                     </div>
-                    <form name="contactForm" id="contact_form" class="row form-default wow fadeInRight"
-                        data-wow-delay=".25s" method="post" action="email.php">
+                    <form name="contactForm" id="contact_form" class="row form-default wow fadeInRight" data-wow-delay=".25s">
                         <div class="col-md-6">
                             <div class="field-set">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" />
+                                <input type="text" name="subject" id="name" class="form-control" placeholder="Your Name" />
                                 <div class="line-fx"></div>
                             </div>
                             <div class="field-set">
@@ -736,7 +738,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="field-set">
-                                <textarea name="message" id="message" class="form-control"
+                                <textarea name="text" id="message" class="form-control"
                                     placeholder="Your Message"></textarea>
                                 <div class="line-fx"></div>
                             </div>
@@ -744,7 +746,7 @@
                         <div class="spacer-single"></div>
                         <div class="col-md-12 text-center">
                             <div id="submit">
-                                <input type="submit" id="send_message" value="Send" class="btn btn-custom color-2" />
+                                <input type="submit" id="js_send" value="Send" class="btn btn-custom color-2" />
                             </div>
                             <div id="mail_success" class="success">Your message has been sent successfully.</div>
                             <div id="mail_fail" class="error">Sorry, error occured this time sending your message.</div>
@@ -777,6 +779,7 @@
     <script src="vendor/glightbox/js/glightbox.min.js"></script>
     <script src="vendor/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/email.js"></script>
 </body>
 
 </html>
