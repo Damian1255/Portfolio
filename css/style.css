@@ -560,7 +560,8 @@ header.header-bottom{
 
 .header-light #mainmenu>li>a {
     color: #222;
-    font-weight: 600
+    font-weight: 600;
+    font-size: 16px;
 }
 
 #mainmenu li li {
@@ -1830,6 +1831,14 @@ header.header-for-mobile {
     box-shadow: none;
     -moz-box-shadow: none;
     -webkit-box-shadow: none
+}
+
+.container {
+    width: 100%;
+    padding-right: 70px !important;
+    padding-left: 70px !important;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .form-underline select {
@@ -6054,7 +6063,7 @@ blockquote.testimonial-big {
     margin: 0;
     font-size: 17px;
     line-height: 1.7em;
-    padding: 0px 50px;
+    padding: 30px 50px;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
