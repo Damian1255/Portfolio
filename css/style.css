@@ -1841,8 +1841,6 @@ header.header-for-mobile {
 
 .container {
     width: 100%;
-    padding-right: 70px !important;
-    padding-left: 70px !important;
     margin-right: auto;
     margin-left: auto;
 }
