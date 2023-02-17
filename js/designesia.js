@@ -323,6 +323,23 @@
 			}
          });
 		 
+         jQuery("#award-carousel").owlCarousel({
+            center: false,
+			loop:true,
+			margin:30,
+			responsive:{
+				1000:{
+                    items:3
+                },
+                600:{
+                    items:1
+                },
+                0:{
+                    items:1
+                }
+			}
+         });
+
 		 jQuery("#blog-carousel").owlCarousel({
             center: false,
 			items:3,

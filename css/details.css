@@ -1,11 +1,11 @@
-*{
-  --font-general:"proxima-nova", Helvetica, Arial, sans-serif;
-  --font-body:"proxima-nova", Helvetica, Arial, sans-serif;
+* {
+  --font-general: "proxima-nova", Helvetica, Arial, sans-serif;
+  --font-body: "proxima-nova", Helvetica, Arial, sans-serif;
 }
 
 body {
   font-family: var(--font-body);
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.7em;
   padding: 0;
@@ -68,4 +68,31 @@ body {
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--primary-color);
+}
+
+.project-details {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.project-details li {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.project-details li .d_title {
+  margin-right: 3px;
+  margin-left: 25px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+h3.s_border {
+  margin-bottom: 30px !important;
 }
