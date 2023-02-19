@@ -3918,7 +3918,7 @@ i.font60 {
 }
 
 .f-box i {
-    font-size: 36px
+    font-size: 45px
 }
 
 .f-box.f-icon-rounded i {
@@ -6191,7 +6191,7 @@ blockquote.testimonial-big {
     margin: 0;
     font-size: 17px;
     line-height: 1.7em;
-    padding: 30px 50px;
+    padding: 40px 50px;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;

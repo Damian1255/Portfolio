@@ -96,3 +96,9 @@ body {
 h3.s_border {
   margin-bottom: 30px !important;
 }
+
+p {
+  line-height: 1.7em;
+  color: #666;
+  text-align: justify;
+}
