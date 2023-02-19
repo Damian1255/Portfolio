@@ -20,8 +20,7 @@ html {
 
 body {
     font-family: var(--font-body);
-    ;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     color: #777777;
     line-height: 1.7em;
@@ -13034,4 +13033,15 @@ body.de_light::-webkit-scrollbar-track {
 
 body.de_light::-webkit-scrollbar-thumb {
     background-color: #dddddd;
+}
+
+/* Extras */
+
+#award-carousel img {
+    width: 75% !important;
+    height: auto;
+}
+
+.post-content {
+    padding: 0px 60px;
 }
