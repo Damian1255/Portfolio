@@ -6195,7 +6195,7 @@ blockquote.testimonial-big {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     font-family: var(--font-general);
-    ;
+    height: 38vw;
 }
 
 .de_light blockquote.testimonial-big {
@@ -13040,6 +13040,7 @@ body.de_light::-webkit-scrollbar-thumb {
 #award-carousel img {
     width: 75% !important;
     height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .post-content {
