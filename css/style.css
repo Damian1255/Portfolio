@@ -13041,6 +13041,7 @@ body.de_light::-webkit-scrollbar-thumb {
     width: 75% !important;
     height: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
 }
 
 .post-content {
