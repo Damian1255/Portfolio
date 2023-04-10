@@ -6,11 +6,11 @@ var data_js = {
 };
 
 function js_onSuccess() {
-    sendButton.value = 'Sent!';
+    sendButton.value = 'Message Sent!';
 }
 
 function js_onError(error) {
-    sendButton.value = 'Error!';
+    sendButton.value = 'Error Sending!';
 }
 
 var sendButton = document.getElementById("js_send");
