@@ -16,6 +16,23 @@ function js_onError(error) {
 var sendButton = document.getElementById("js_send");
 
 function js_send() {
+    // check if fields are empty
+    var name = document.getElementById("name").value.trim();
+    var email = document.getElementById("email").value.trim();
+    var message = document.getElementById("message").value.trim();
+    var phone = document.getElementById("phone").value.trim();
+    
+    if (name == "" || email == "" || message == "" || phone == "") {
+        sendButton.value = "Please fill in all fields.";
+        sendButton.style.backgroundColor = "#ff0000";
+
+        setTimeout(function () {
+            sendButton.value = "Send";
+            sendButton.style.backgroundColor = '#51a5c4';
+        }, 3000);
+        return false;
+    }
+    
     sendButton.value = 'Sending…';
     sendButton.disabled = true;
     var request = new XMLHttpRequest();

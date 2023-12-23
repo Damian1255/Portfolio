@@ -6188,7 +6188,7 @@ blockquote.testimonial-big {
     border: none;
     padding: 0;
     margin: 0;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.7em;
     padding: 40px 50px;
     border-radius: 3px;
@@ -6196,6 +6196,7 @@ blockquote.testimonial-big {
     -webkit-border-radius: 3px;
     font-family: var(--font-general);
     height: 38vw;
+    overflow: auto;
 }
 
 .de_light blockquote.testimonial-big {
