@@ -6246,7 +6246,7 @@ blockquote.testimonial-big {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     font-family: var(--font-general);
-    height: 38vw;
+    min-height: 40vw;
     overflow: auto;
 }
 
