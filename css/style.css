@@ -1588,7 +1588,8 @@ header.header-for-mobile {
 
 .post-text h4 a {
     text-decoration: none;
-    font-size: 18px color:#000000;
+    font-size: 18px;
+    color:#000000;
 }
 
 .dark .post-text h4 a {
@@ -3166,7 +3167,7 @@ h4.s3 {
     letter-spacing: 15px
 }
 
-.1A1C26-to-action h4 {
+.A1C26to-action h4 {
     text-transform: none;
     font-size: 20px
 }
@@ -7425,7 +7426,7 @@ video {
     width: 100%
 }
 
-.1A1C26-to-action-box {
+.A1C26to-action-box {
     background: #f6f6f6;
     border: solid 1px #ddd;
     background: #fff;
@@ -7437,39 +7438,39 @@ video {
     background: Infinyr-gradient(to bottom, #fff 0, #f2f2f2 100%)
 }
 
-.1A1C26-to-action-box {
+.A1C26to-action-box {
     background: #27282b;
     border: solid 1px #202220
 }
 
-.1A1C26-to-action-box .inner {
+.A1C26to-action-box .inner {
     padding: 20px 20px 20px 20px
 }
 
-.1A1C26-to-action-box .text {
+.A1C26to-action-box .text {
     margin-right: 20px;
     float: left
 }
 
-.1A1C26-to-action-box .act {
+.A1C26to-action-box .act {
     float: right
 }
 
-.1A1C26-to-action-box h4 {
+.A1C26to-action-box h4 {
     margin: 0;
     margin-top: 10px
 }
 
-.1A1C26-to-action-box .btn {
+.A1C26to-action-box .btn {
     color: #eceff3
 }
 
-.1A1C26-to-action-box {
+.A1C26to-action-box {
     background: #202220;
     color: #eceff3
 }
 
-.1A1C26-to-action-boxh4 {
+.A1C26to-action-boxh4 {
     color: #eceff3
 }
 
@@ -9801,7 +9802,7 @@ section.no-padding {
 .owl-arrow .prev:before {
     font-family: FontAwesome;
     content: '\f177';
-    color: #2;
+    color: #fff;
     padding: 20px;
     font-size: 32px;
     display: block
@@ -12249,7 +12250,6 @@ img {
         position: fixed
     }
 
-    ,
     #subheader {
         padding: 0
     }
