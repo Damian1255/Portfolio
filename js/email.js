@@ -7,6 +7,11 @@ var data_js = {
 
 function js_onSuccess() {
     sendButton.value = 'Message Sent!';
+    // clear all fields
+    document.getElementById("name").value = '';
+    document.getElementById("email").value = '';
+    document.getElementById("message").value = '';
+    document.getElementById("subject").value = '';
 }
 
 function js_onError(error) {
@@ -20,14 +25,14 @@ function js_send() {
     var name = document.getElementById("name").value.trim();
     var email = document.getElementById("email").value.trim();
     var message = document.getElementById("message").value.trim();
-    var phone = document.getElementById("phone").value.trim();
+    var subject = document.getElementById("subject").value.trim();
     
-    if (name == "" || email == "" || message == "" || phone == "") {
+    if (name == "" || email == "" || message == "" || subject == "") {
         sendButton.value = "Please fill in all fields.";
         sendButton.style.backgroundColor = "#ff0000";
 
         setTimeout(function () {
-            sendButton.value = "Send";
+            sendButton.value = "Send Message";
             sendButton.style.backgroundColor = '#51a5c4';
         }, 3000);
         return false;
@@ -47,11 +52,12 @@ function js_send() {
     var subject = document.querySelector("#" + form_id_js + " [name='subject']").value;
     var message = document.querySelector("#" + form_id_js + " [name='text']").value;
     var email = document.querySelector("#" + form_id_js + " [name='email']").value;
-    var phone = document.querySelector("#" + form_id_js + " [name='phone']").value;
-    data_js['subject'] = subject;
-    data_js['text'] = message;
+    var name = document.querySelector("#" + form_id_js + " [name='name']").value;
+
+    data_js['subject'] = '[Portfolio] ' + subject;
+    data_js['extra_name'] = name;
     data_js['extra_email'] = email;
-    data_js['extra_phone'] = phone;
+    data_js['text'] = 'Message: ' + message;
     var params = toParams(data_js);
 
     request.open("POST", "https://postmail.invotes.com/send", true);
