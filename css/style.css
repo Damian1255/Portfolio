@@ -782,12 +782,12 @@ header:not(.header-mobile) #mainmenu>li:hover ul.mega {
 	border:none
 }
 .cursor2{
-	border: 3px solid var(--primary-color);
-	box-shadow: 0 0 22px rgba(255, 255, 255, 0.6);
+	border: 3px solid gainsboro;
+	box-shadow: 0 0 22px rgba(138, 138, 138, 0.6);
 }
 .cursor2.hover{
 	background: rgba(255,255,255,1);
-	box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 12px var(--primary-color);
 }
 
 @media screen and (max-width: 1200px){
