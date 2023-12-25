@@ -27,7 +27,8 @@ body {
     padding: 0;
     display: none;
     background: #ffffff;
-    height: 100%
+    height: 100%;
+    cursor: none;
 }
 
 body.boxed {
@@ -790,10 +791,13 @@ header:not(.header-mobile) #mainmenu>li:hover ul.mega {
 	box-shadow: 0 0 12px var(--primary-color);
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 800px){
 	.cursor,.cursor2,.cursor3{
-		display: none
+		display: none;
 	}
+    body {
+        cursor: pointer;
+    }
 }
 
 header.header-light #menu-btn:before {
