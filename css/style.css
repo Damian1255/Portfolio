@@ -920,7 +920,8 @@ section.dark {
 }
 
 .de_light section {
-    background: #fff
+    background: #fff;
+    height: auto !important;
 }
 
 .section-fixed {
