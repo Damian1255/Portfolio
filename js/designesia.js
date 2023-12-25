@@ -1447,7 +1447,7 @@
             jQuery('#btn-exit').removeClass("clicked");
             jQuery('.transition').css('left','-100%');
             doTimer_2('#section-main');
-                
+            window.location.hash = '';
          });
 
          sequence();
