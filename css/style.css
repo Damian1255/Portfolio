@@ -405,6 +405,19 @@ header.header-bottom {
     float: none
 }
 
+.contact-btn {
+    font-size: 15px !important;
+    text-transform: capitalize !important;
+    padding: 10px 12px !important;
+}
+
+.contact-btn:hover {
+    color: #fff;
+    -webkit-box-shadow: 2px 2px 20px 0 rgba(20, 20, 20, .3);
+    -moz-box-shadow: 2px 2px 20px 0 rgba(20, 20, 20, .3);
+    box-shadow: 2px 2px 20px 0 rgba(20, 20, 20, .3)
+}
+
 #subheader {
     text-align: center;
     overflow: hidden;
