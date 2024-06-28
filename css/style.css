@@ -8215,15 +8215,25 @@ a:hover {
 #btn-exit .line-1,
 #btn-exit .line-2 {
     width: 50px;
-    height: 2px;
+    height: 4px;
     background: #fff;
     position: absolute;
     border-radius: 10px
 }
 
+#btn-exit.dark:hover .line-1,
+#btn-exit.dark:hover .line-2 {
+    width: 50px;
+    height: 4px;
+    background: var(--primary-color);
+    width: 53px;
+    height: 5px;
+}
+
 #btn-exit.dark .line-1,
 #btn-exit.dark .line-2 {
     background: #000000;
+    transition: all .3s ease-in-out;
 }
 
 #btn-exit .line-1 {
