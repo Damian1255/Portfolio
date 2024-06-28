@@ -773,13 +773,13 @@ header:not(.header-mobile) #mainmenu>li:hover ul.mega {
 	height: 36px;
 	width: 36px;
 	z-index:99998;
-	-webkit-transition:all 0.1s ease-out;
-	transition:all 0.1s ease-out
+	-webkit-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
 }
 .cursor2.hover,
 .cursor3.hover{
-	-webkit-transform:scale(2) translateX(-25%) translateY(-25%);
-	transform:scale(2) translateX(-25%) translateY(-25%);
+	-webkit-transform: scale(1.5) translateX(-25%) translateY(-25%);
+	transform:scale(1.5) translateX(-25%) translateY(-25%);
 	border:none
 }
 .cursor2{
@@ -787,7 +787,6 @@ header:not(.header-mobile) #mainmenu>li:hover ul.mega {
 	box-shadow: 0 0 22px rgba(138, 138, 138, 0.6);
 }
 .cursor2.hover{
-	background: rgba(255,255,255,1);
 	box-shadow: 0 0 12px var(--primary-color);
 }
 
@@ -8226,14 +8225,13 @@ a:hover {
     width: 50px;
     height: 4px;
     background: var(--primary-color);
-    width: 53px;
     height: 5px;
 }
 
 #btn-exit.dark .line-1,
 #btn-exit.dark .line-2 {
     background: #000000;
-    transition: all .3s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 #btn-exit .line-1 {
