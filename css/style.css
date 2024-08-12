@@ -7,8 +7,8 @@
 
 /* variables */
 * {
-    --font-general: "proxima-nova", Helvetica, Arial, sans-serif;
-    --font-body: "proxima-nova", Helvetica, Arial, sans-serif;
+    --font-general: "Rubik", sans-serif;
+    --font-body: "Rubik", sans-serif;
 }
 
 html {
@@ -170,7 +170,8 @@ header div#logo {
 }
 
 header div#logo a {
-    color: #fff
+    color: #fff;
+    font-size: 20px;
 }
 
 header.header-mobile div#logo a {
@@ -578,7 +579,7 @@ header.header-bottom {
 
 .header-light #mainmenu>li>a {
     color: #222;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 17px;
 }
 
@@ -3094,6 +3095,7 @@ h2.title {
     font-size: 48px;
     line-height: 1.2em;
     margin-bottom: 30px;
+    font-weight: 500;
 }
 
 h2.title.date span {
@@ -3159,6 +3161,8 @@ h3.s_border {
     border: solid 3px rgba(0, 0, 0, .1);
     padding: 10px 20px;
     border-radius: 3px;
+    font-size: 25px;
+    font-weight: 500;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     margin-bottom: 40px;
@@ -3174,8 +3178,7 @@ h3.s_border {
 
 .typed-words {
     font-family: var(--font-general);
-    ;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 30px
 }
 
@@ -3394,6 +3397,7 @@ h2.s3 {
 h4.title {
     text-align: center;
     font-size: 20px;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -6643,7 +6647,7 @@ blockquote.testimonial-big>img {
 }
 
 .d_timeline-text .d_title {
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 10px;
     display: block;
     font-size: 20px;
