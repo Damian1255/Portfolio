@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" preserveAspectRatio="xMidYMid" width="500" height="350" style="shape-rendering: auto; display: block; background: rgb(163, 186, 223);" xmlns:xlink="http://www.w3.org/1999/xlink"><g style="transform:translate(250.0px,175.0px) scale(1,-1) translate(-250.0px,-175.0px)"><defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" preserveAspectRatio="xMidYMid" width="500" height="350" style="shape-rendering: auto; display: block; background: #ffffff" xmlns:xlink="http://www.w3.org/1999/xlink"><g style="transform:translate(250.0px,175.0px) scale(1,-1) translate(-250.0px,-175.0px)"><defs>
 <linearGradient id="lg-bk-2osr0q8yzqx" x1="0" x2="0" y1="0" y2="1">
-  <stop stop-color="#5fdae9" stop-opacity="0" offset="0"></stop>
+  <stop stop-color="#1cbacd" stop-opacity="0" offset="0"></stop>
   <stop stop-color="#b6eaff" stop-opacity="1" offset="0.6375"></stop>
 </linearGradient>
 <linearGradient id="lg-freyurszfti" x1="0" x2="0" y1="0" y2="1">
